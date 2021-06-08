@@ -1,0 +1,21 @@
+Ctrl + Alt + T || Open terminal
+
+Ctrl + Z || Send to background (suspended). & option sends program to background.
+fg || Bring to foreground
+Ctrl + D || Log out of terminal
+Ctrl + L || Clear terminal screen
+
+Ctrl + A || Cursor to beginning of line
+Ctrl + E || Cursor to end of line
+
+Ctrl + U || Erase to beginning of line
+Ctrl + K || Erase to end of line
+Ctrl + Y || Undo erase
+
+Ctrl + R || Search command history (and cycle results)
+Shift + PgUp/PgDn || Scroll up/down by page 
+
+Alt + B || Back a word
+Alt + Shift + F || Forward a word
+
+Ctrl + Alt + F7 || Exit kali virtual console
