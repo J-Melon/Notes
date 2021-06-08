@@ -1,0 +1,4 @@
+Apache
+service apache2 start || Starts
+systemctl status apache2 || Status
+localhost (ip)|| URL for local server (ip for remote)

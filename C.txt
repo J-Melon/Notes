@@ -1,0 +1,21 @@
+%((o/x/d/u/s/t/i)) || Denotes equivalent data type
+%n || Number of bytes  written so far
+%s || String (or memory address)
+%p || Memory addresses (pointers)
+%c || Character
+%f || Double or float
+%l || Long int
+%ll || Long long int
+%g || (Read man), cuts off trailing zeros on floating points
+%z(d,i,o,u,etc.) || Size of variable (Display size_t value directly)
+
+& || Address of operator (for pointers)
+* || Dereference - returns data found in address of pointer OR pointer declaration
+
+o || Octal
+x || Hexadecimal
+d || Decimal
+u || Unsigned decimal
+s || String
+t || Binary
+i || Instruction

@@ -1,0 +1,39 @@
+GCC
+-g || Retain source-level debugged/symbol information
+
+GDB Commands
+help || Help
+break/b || Set breakpoint
+delete/d || Delete breakpoint
+info/i || Displays data/list
+step/s || Step to next line
+continue/cont || Resume execution
+finish/f || Executes rest of current function 
+l/list || Prints the area around the current line in the current source file.
+where || Displays the current line and the function stack of calls.
+backtrace/bt (full) || Summary of how the program got where it is. (Shows local vars in each stack frame)
+[BLANK] || Repeat previous command
+
+r || Run until break/error
+p || Print
+
+x/((o/x/etc./i))(b/h/w/g) || Examine memory
+
+GDB Non-commands
+r || Register variables 
+
+& || Address of operator (for pointers)
+* || Dereference - returns data found in address of pointer OR pointer declaration
+
+o || Octal
+x || Hexadecimal
+d || Decimal
+u || Unsigned decimal
+s || String
+t || Binary
+i || Instruction
+
+b || Byte
+h || Halfword (2B)
+w || Word (4B) (This can be 2B, with 4B being a double word: DWORD)
+g || Giant (8B)

@@ -1,0 +1,14 @@
+Pre all w/ git (duh)
+
+init || Initalise local repo
+config || Configuration
+status || Commit status
+add (-u) || Stage files for commit (Update tracked files)
+reset || Unstage file (no param for all)
+commit (--amend) (-m) || Commit (amend last commit) (w/ message)
+branch (x)|| List branches (Add branch x)
+log || List commits
+remote (rm) add || Add remote repo on GitHub (or remove remote)
+push (-u) [x] (master)|| Push commits to GitHub (Set upstream for git pull/status)
+pull || Pulls from repo
+checkout x || Switch to branch x

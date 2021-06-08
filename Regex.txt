@@ -1,0 +1,18 @@
+Characters
+\ || Escapes special character
+\d || Digit (0-9)
+\w || Letter, digit, underscore
+\s || Whitespace
+. || Any character
+
+Quantifers
++ || One or more
+{2} || 2 of
+{2, 4} || 2-4 of
+{2,} || 2 or more of
+* || 0 or more
+? || Once or none
+
+Anchors
+^ || Start of string (or line)
+$ || End of string

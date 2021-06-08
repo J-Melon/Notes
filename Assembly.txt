@@ -1,0 +1,32 @@
+Data Registers
++--------+--------+--------+---------+
+| 64 Bit | 32 Bit | 16 Bit | 8+8 Bit |
++--------+--------+--------+---------+
+|  RAX   |  EAX   |   AX   |  AL+AH  |
+|  RBX   |  EBX   |   BX   |  BL+BH  |
+|  RCX   |  ECX   |   CX   |  CL+CH  |
+|  RDX   |  EDX   |   DX   |  DL+DH  |
++--------+--------+--------+---------+
+
+General Purpose (Temp. var.) Registers
+EAX || Accumulator
+ECX || Counter
+EDX || Data
+EBX || Base
+
+General Purpose (Pointer, index) Registers
+ESP || Stack Pointer
+EBP || Base Pointer
+ESI || Source Index
+EDI || Destination Index
+
+Control Registers
+EIP || Instruction Pointer
+EFLAGS || Several bit flags for comparisons/memory segmentations
+
+Assembly Instructions
+cmp || Compare
+jle || Jump if > or == 
+jmp || Jump
+lea || Load effective address
+inc || Increment by 1

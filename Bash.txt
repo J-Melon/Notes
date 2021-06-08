@@ -1,0 +1,38 @@
+pwd || Print working directory
+cd || Change directory
+ls || List directory
+echo || Display string
+mkdir || Make directory
+rmdir || Remove directorys
+rm || Remove file(s)
+mv || Move or rename file
+cp || Copy file
+cat || Read file
+find || Search for file
+which || Print location of exe
+type || Query type of command
+touch || 
+grep || Search contents of files 
+ps || List running processes (aux for all)
+kill || Kill process
+man || Display manual
+apropos || Search manual w/ keywords
+apt || Package manager
+ip address || My ip address
+-----------/stock-----------
+objdump || Disassember etc.
+gdb || Debugger
+tree a || Displays folder hierarchy (all)
+
+PC Info
+id || Identity of user running session
+uname || OS and machine info 
+lspci || PCI devices (pciutils)
+lsusb || USB devices (usbutils)
+lspcmcia || PCMCIA cards (pcmciautils - not stock in kali)
+lsdev || Communication resources used by devices
+lshw || All hardware features
+dmsg || Kernel logs
+journalctl || All available logs
+free || Memory infomation
+df || Disk free space
