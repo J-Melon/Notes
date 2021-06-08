@@ -12,3 +12,4 @@ remote (rm) add || Add remote repo on GitHub (or remove remote)
 push (-u) [x] (master)|| Push commits to GitHub (Set upstream for git pull/status)
 pull || Pulls from repo
 checkout x || Switch to branch x
+mv <old_name> <new_name> || Move/rename file
