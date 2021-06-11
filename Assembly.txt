@@ -16,7 +16,7 @@ EBX || Base
 
 General Purpose (Pointer, index) Registers
 ESP || Stack Pointer
-EBP || Base Pointer
+EBP || Base/Frame Pointer
 ESI || Source Index
 EDI || Destination Index
 
