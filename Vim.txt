@@ -9,7 +9,7 @@ u || Undo changes
 Ctrl + R || Redo changes
 yy || Copy line
 dd || Cut line
-D/d% || Delete rest of line
+D/d$ || Delete rest of line
 p || paste
 >> \ << || Indent/unindent
 
@@ -26,6 +26,9 @@ e || Jump to end of word
 ( / ) || Jump back/forward a sentence
 / / ? || Search forward/back
 
+gt || Jump to next tab
+gT || Jump to previous tab
+
 V/v || Enter visual line mode / visual mode
 
 zg || Add word to spell file
@@ -40,6 +43,14 @@ split(x) || Split horizontally (filename)
 vsplit(x) || Split vertically (filename)
 Plug(x) || Vim-Plug (Install/Update etc.)
 GitGutterFold || Fold all unchanged lines
+
+q(a) || Quit (all)
+w(a) || Save (all)
+(%)s/x/y(/g) || Find x and replace w/ y (in entire file) (all occurrences in current line) / can be replaced by any non-alphanumeric character
+noh || Clear highlighting until next search
+bufdo || Execute command in all buffers
+tabdo || Execute command in all tabs
+windo || Execute command in all windows
 
 Windows (Ctrl + W, x)
 v || New vertical split
