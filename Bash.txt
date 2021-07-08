@@ -9,6 +9,9 @@ mv || Move or rename file
 cp || Copy file
 cat || Read file
 find || Search for file
+truncate || Shrink or extend file to specific size
+chown [user]:[group]|| Change ownership of file
+chmod (u/g/o/a)(-/+/=)(r/w/x/s) || Change permissions (mode) of file (user/group/others/all)(remove/grant/grant and remove others)(read/write/execute/execute as user who created file)
 which || Print location of exe
 type || Query type of command
 touch || 
