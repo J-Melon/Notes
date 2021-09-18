@@ -1,4 +1,14 @@
 Apache
-service apache2 start || Starts
-systemctl status apache2 || Status
-localhost (ip)|| URL for local server (ip for remote)
+Command prototype: systemctl/service [command] apache2/httpd(for red hat)
+
+Commands
+start
+stop
+restart
+reload || Like restart but less forceful
+status
+
+
+
+
+

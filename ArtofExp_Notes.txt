@@ -1,0 +1,20 @@
+Random notes that don't fit into the code examples.
+
+Backtracing
+------------
+A backtrace shows nested function calls by looking at records kept on the stack. These are called stack frames and are put on the stack every time a function is called. Each stack frame also contains the local variables for that context.
+
+Memory Segmentation
+--------------------
+A program's memory is divided into five segments:
+Text/Code - Assembled machine language instructions
+Data - Stores initialised global and local variables
+Bss (Block Start by Symbol) - Stores uninitalised counterpart variables
+Heap - Stores memory which can be increased or decreased at any point
+Stack - Stores temporary variables and parameters (LIFO)
+
+Execution Loop - Instruction pointer
+1. Read instruction pointed to by IP
+2. Add byte length of instruction to IP
+3. Execute instruction read
+4. Repeat

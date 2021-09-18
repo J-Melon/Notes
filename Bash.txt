@@ -14,7 +14,7 @@ chown [user]:[group]|| Change ownership of file
 chmod (u/g/o/a)(-/+/=)(r/w/x/s) || Change permissions (mode) of file (user/group/others/all)(remove/grant/grant and remove others)(read/write/execute/execute as user who created file)
 which || Print location of exe
 type || Query type of command
-touch || 
+touch || Change file timestamps
 grep || Search contents of files 
 ps || List running processes (aux for all)
 kill || Kill process
@@ -22,6 +22,7 @@ man || Display manual
 apropos || Search manual w/ keywords
 apt || Package manager
 ip address || My ip address
+hostname (-I) || Show name of host (show all ip addresses)
 -----------/stock-----------
 objdump || Disassember etc.
 gdb || Debugger

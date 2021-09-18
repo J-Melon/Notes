@@ -1,0 +1,5 @@
+Command Prompt
+localhost (ip)|| URL for local server (ip for remote)
+cls || Clear screen
+ESC || Clear entered line of text
+dir NOT ls || List file structure

@@ -1,0 +1,9 @@
+Double tap Shift || Search everywhere
+ctrl + shift + alt + L || Reformat code
+ctrl + alt + S || Settings
+ctrl + Q || Quick documentation
+
+IntelliJ Terminal
+ctrl + shift + W || Close session
+alt + R || Split right
+alt + D || Split down
