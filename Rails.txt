@@ -1,0 +1,10 @@
+Console
+rails c
+
+Server
+rails s
+
+run ruby script w/ rails
+<Class>.new.call
+
+shoryuken -C ./config/shoryuken.yml -R -r ./app/workers/quote_recorder.rb

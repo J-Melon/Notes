@@ -1,0 +1,8 @@
+Tap into docker container (replace id)
+docker exec -it c54d8022bd7422ea908a581e19fe34b604d83745acb6e35ef10d768149fa1fe8 /bin/sh
+
+Message table
+CREATE TABLE quotes (
+    quote_id varchar (40) PRIMARY KEY,
+    body varchar (256)
+);
